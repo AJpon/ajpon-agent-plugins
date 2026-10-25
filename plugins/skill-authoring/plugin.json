@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-skill-authoring",
+  "description": "複雑なスキルの新規作成や改修を手伝います。",
+  "repository": "https://github.com/AJpon/ajpon-agent-plugins",
+  "extensions": {
+    "com.openai":
+    {
+    }
+  }
+}
