@@ -1,0 +1,21 @@
+{
+  "name": "ajpon-agent-plugins",
+  "owner": {
+    "name": "pon"
+  },
+  "plugins": [
+    {
+      "name": "agent-skill-authoring",
+      "description": "複雑なスキルの作成を手伝います。",
+      "author": {
+        "name": "pon"
+      },
+      "source": "./plugins/skill-authoring",
+      "category": "development",
+      "dependencies": [
+        "skill-creator@claude-plugins-official"
+      ],
+      "license": "MIT"
+    }
+  ]
+}
