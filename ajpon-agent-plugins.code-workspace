@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "json.schemas": [
+      {
+        "fileMatch": [
+          // OpenPlugin
+          "**/.plugin/plugin.json",
+          // GitHub Copilot
+          "**/.github/plugin/plugin.json",
+          // Claude
+          "**/.claude-plugin/plugin.json"
+        ],
+        "url": "https://json.schemastore.org/claude-code-plugin-manifest.json"
+      },
+      {
+        "fileMatch": [
+          "**/.github/plugin/marketplace.json",
+          "**/.claude-plugin/marketplace.json"
+        ],
+        "url": "https://json.schemastore.org/claude-code-plugin-schema.json"
+      },
+      // Agent Plugins 1.0.0
+      {
+        "fileMatch": ["plugins/*/plugin.json"],
+        "url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+      },
+      {
+        "fileMatch": ["plugins/*/mcp.json"],
+        "url": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json"
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "editorconfig.editorconfig",
+      "ms-vscode.vscode-chat-customizations-evaluations",
+      "streetsidesoftware.code-spell-checker",
+      "streetsidesoftware.code-spell-checker-british-english",
+      "streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries",
+      "streetsidesoftware.code-spell-checker-win32",
+      "upstash.context7-mcp"
+    ]
+  },
+}
